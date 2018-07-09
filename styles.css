@@ -13,13 +13,9 @@ li {
     float: left;
 }
 
-div.absolute{
-	position:absolute;
-	top:450;
-	right:0;
-	width:200px;
-	height:100px;
-	border:1px solid#000000;
+img {
+
+	border: 1px solid #fff;
 }
 
 li a {
