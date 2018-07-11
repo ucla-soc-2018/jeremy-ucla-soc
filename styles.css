@@ -1,16 +1,17 @@
-		ul{
-			color:white
-		}
+		
+
+
 		ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0; 
     overflow: hidden;
     background-color: #333;
 }
 
 li {
     float: left;
+    color: white;
 }
 
 img {
@@ -19,26 +20,28 @@ img {
 }
 
 li a {
-    display: block;
-    color: white;
+  display: block;
+  color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 h1{
-	color:green
+  color:green;
 }
 h2{
-	color: blue
+  color: blue;
 }
 body {
-	background-color: black
+  background-color: black;
 }
-li{
-	color: white
+
 }
 p{
-	color:white
+  color:white;
+}
+ul.index_page{
+	color:white;
 }
 
