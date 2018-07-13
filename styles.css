@@ -1,46 +1,113 @@
-		
-
-
-		ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0; 
-    overflow: hidden;
-    background-color: #333;
+body {
+  background-color: black;
 }
-
-li {
-    float: left;
-    color: white;
-}
-
-img {
-
-	border: 1px solid #fff;
-}
-
-li a {
-  display: block;
+ol {
   color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
 }
-
-h1{
-  color:green;
+ul.index_page {
+  color: white;
+}
+ul.animals {
+  color: #FF6103; /*orange*/
+}
+li {
+  font-family: Helvetica;
+  font-size: 1.2em;
+  line-height: 2em;
+}
+h1.index_page {
+  color: blue;
+}
+h1.gallery{
+  color: green;
+}
+h1.glossary {
+  color: #72587F; /*purple*/
+}
+h1.animals {
+  color: #FF6103; /*orange*/
+}
+h1.about {
+  color: #FFB90F; /*gold*/
 }
 h2{
   color: blue;
 }
-body {
-  background-color: black;
+p{
+  color: white;
+  font-family: Helvetica;
+  font-size: 1.2em;
+}
+p.cats {
+  color:red;
+  font-size: 1.2em;
+}
+p.basilisks {
+  color:green;
+  font-size: 1.2em;
+}
+p.panthers {
+  color:blue;
+  font-size: 1.2em;
+}
+img {
+  border: 1px solid #fff;
+  margin: 2px;
 }
 
+/* Styles the navigation bar */
+.topnav {
+  background-color: green;
+  overflow: hidden;
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
 }
-p{
-  color:white;
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.05em;
 }
-ul.index_page{
-	color:white;
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #66CCCC;
+  color: white;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px ;
+  font-size: .9em;
+  font-family: 'Open Sans', sans-serif;
+  overflow: auto;
+  margin-top: 0px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+span.vocab {
+  font-size: 1.5em;
+  color: #8B7B8B;
+}
+/*Center the div on the page about*/
+.center {
+    margin: auto;
+    width: 700px;
+    padding: 10px;
 }
